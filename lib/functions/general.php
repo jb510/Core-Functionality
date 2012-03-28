@@ -69,6 +69,8 @@ add_action( 'wp_before_admin_bar_render', 'be_admin_bar_items' );
 function be_admin_bar_items() {
 	global $wp_admin_bar;
 	$wp_admin_bar->remove_menu( 'new-link', 'new-content' );
+	if ( current_user_can( 'activate_plugins' ) )
+		$wp_admin_bar->add_menu( array( 'parent' => 'appearance', 'id' => 'plugins', 'title' => __('Plugins'), 'href' => admin_url('plugins.php') ) );
 }
 
 

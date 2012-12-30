@@ -32,10 +32,6 @@ define( 'BE_DIR', dirname( __FILE__ ) );
 // Shortcodes
 include_once( BE_DIR . '/lib/functions/shortcodes.php' );
 
-// Facebook Open Graph Tags
-// -- Set default image in general.php
-include_once( BE_DIR . '/lib/functions/facebook.php' );
-
 // Widgets
 //include_once( BE_DIR . '/lib/widgets/widget-social.php' );
 

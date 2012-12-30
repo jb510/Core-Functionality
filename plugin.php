@@ -4,9 +4,9 @@
  * Plugin URI: https://github.com/billerickson/Core-Functionality
  * Description: This contains all your site's core functionality so that it is theme independent.
  * Version: 1.1.0
- * Author: Jon Bown
+ * Author: Jon Brown
  * Author URI: http://www.jbrownstudios.com
- * Attribution: Bill Erickson
+ * Attribution: Many thanks go to Bill Erickson for the original iteration of this core functionliaty plugin
  *
  * This program is free software; you can redistribute it and/or modify it under the terms of the GNU 
  * General Public License version 2, as published by the Free Software Foundation.  You may NOT assume 

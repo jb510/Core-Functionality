@@ -18,39 +18,14 @@
 // Use shortcodes in widgets
 add_filter( 'widget_text', 'do_shortcode' );
 
-
 /**
- * URL Shortcode
+ * Sample Shortcode
  * @since 1.0.0
  *
  * @param	null
  * @return	string	Site URL
  */
-function be_url_shortcode( $atts ) {
-	return get_bloginfo( 'url' );
+function jb_sample_shortcode( $atts ) {
+	return $output;
 }
-add_shortcode( 'url','be_url_shortcode' );
-
-/**
- * WP URL Shortcode
- * @since 1.0.0
- *
- * @param	null
- * @return	string	WordPress URL
- */
-function be_wpurl_shortcode( $atts ) {
-	return get_bloginfo( 'wpurl' );
-}
-add_shortcode( 'wpurl','be_wpurl_shortcode' );
-
-/**
- * Child Shortcode
- * @since 1.0.0
- *
- * @param	null
- * @return	string	Child Theme URL
- */
-function be_child_shortcode( $atts ) {
-	return get_bloginfo( 'stylesheet_directory' );
-}
-add_shortcode( 'child', 'be_child_shortcode' );
+//add_shortcode( 'sample_shortcode','jb_sample_shortcode' );

@@ -30,7 +30,7 @@ define( 'BE_DIR', dirname( __FILE__ ) );
 //include_once( BE_DIR . '/lib/functions/metaboxes.php' );
  
 // Shortcodes
-include_once( BE_DIR . '/lib/functions/shortcodes.php' );
+//include_once( BE_DIR . '/lib/functions/shortcodes.php' );
 
 // Widgets
 //include_once( BE_DIR . '/lib/widgets/widget-social.php' );
